@@ -1,10 +1,6 @@
 <template>
   <div id="app">
     <div class="nav">
-      <div class="search">
-        <input placeholder="请输入....." type="search"/>
-        <button :class="{jello: active}" @click="handleSearch">搜索</button>
-      </div>
     </div>
     <router-view/>
   </div>
@@ -14,13 +10,10 @@
   export default {
     name: 'App',
     data() {
-      return {
-        active: false
-      }
+      return {}
     },
     methods: {
       handleSearch() {
-        this.active = true;
       }
     }
   }
@@ -31,10 +24,6 @@
   .nav {
     height: 200px;
     padding-top: 50px;
-  }
-
-  .jello {
-    animation: jello 2s ease-in-out;
   }
 
   .search {
