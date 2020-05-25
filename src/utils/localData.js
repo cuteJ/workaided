@@ -125,8 +125,42 @@ export const WriterLink = [
     wLink: 'https://zhuanlan.zhihu.com/write',
     desc: '有问题，上知乎',
     logo: 'static/links/zhihu.jpg'
+  },
+  {
+    title: '开源中国',
+    link: 'https://www.oschina.net',
+    wLink: 'https://my.oschina.net/u/4010919/blog/write',
+    desc: '中文开源技术交流社区',
+    logo: 'static/links/kyzg.jpeg'
+  },
+  {
+    title: '51CTO',
+    link: 'https://www.51cto.com',
+    wLink: 'https://blog.51cto.com/blogger/publish',
+    desc: '51IT家园',
+    logo: 'static/links/51cto.png'
+  },
+  {
+    title: 'V2EX',
+    link: 'https://www.v2ex.com',
+    wLink: 'https://www.v2ex.com',
+    desc: '中文开源技术交流社区',
+    logo: 'static/links/v2ex.png'
+  },
+  {
+    title: '百度贴吧',
+    link: 'https://tieba.baidu.com',
+    wLink: 'http://tieba.baidu.com/i/i/my_tie',
+    desc: '百度贴吧',
+    logo: 'static/links/baidu.png'
+  },
+  {
+    title: '力扣（刷题）',
+    link: 'https://leetcode-cn.com',
+    wLink: 'https://leetcode-cn.com',
+    desc: '力扣提供海量技术面试资源，帮助你高效提升编程技能',
+    logo: 'static/links/leetcode.png'
   }
-
 ];
 export default {
   DiagramData,
