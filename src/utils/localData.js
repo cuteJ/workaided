@@ -127,6 +127,13 @@ export const WriterLink = [
     logo: 'static/links/zhihu.jpg'
   },
   {
+    title: 'GitChat',
+    link: 'https://gitbook.cn',
+    wLink: 'https://gitbook.cn/new/gitchat/activity?type=free',
+    desc: '一款基于微信平台的知识分享产',
+    logo: 'static/links/gitchat.png'
+  },
+  {
     title: '开源中国',
     link: 'https://www.oschina.net',
     wLink: 'https://my.oschina.net/u/4010919/blog/write',
@@ -134,11 +141,18 @@ export const WriterLink = [
     logo: 'static/links/kyzg.jpeg'
   },
   {
-    title: '51CTO',
-    link: 'https://www.51cto.com',
-    wLink: 'https://blog.51cto.com/blogger/publish',
-    desc: '51IT家园',
-    logo: 'static/links/51cto.png'
+    title: '腾讯云社区',
+    link: 'https://cloud.tencent.com/developer/column',
+    wLink: 'https://cloud.tencent.com/developer/article/write',
+    desc: '腾讯云社区',
+    logo: 'static/links/tx.png'
+  },
+  {
+    title: '阿里云社区',
+    link: 'https://yq.aliyun.com/articles',
+    wLink: 'https://yq.aliyun.com/articles/new',
+    desc: '阿里云社区',
+    logo: 'static/links/yx.png'
   },
   {
     title: 'V2EX',
